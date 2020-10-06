@@ -5,6 +5,8 @@
     }
     
     * {
+      padding:  0px;
+      margin: 0px;
       box-sizing: border-box;
     }
     
@@ -15,7 +17,7 @@
     /* Position the image container (needed to position the left and right arrows) */
     .container {
       position: relative;
-      width: 90%;
+      width: 100%;
     }
     
     /* Hide the images by default */
