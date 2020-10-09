@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    object-fit: cover;
+}
+
+.img {
+    border-radius: 6px;
+    border: 2px solid #fff;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.item .button {
+    position: relative;
+    border-radius: 7px;
+    padding: 8px 16px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.icons {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+#correct {
+    color: rgb(7, 167, 47);
+}
+
+#false {
+    color: #ca1919;
+}
+
+
+.not-visible{
+    display: none;
+}
+
+.network {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.network .fa-facebook-f, .fa-whatsapp, .fa-twitter {
+    margin-top: 12px;
+}
+
+#facebook:hover{
+    color: #fff;
+    background-color: #4267B2;
+    cursor: pointer;
+}
+
+#twitter:hover{
+    color: #fff;
+    background-color:#1da1f2;
+    cursor: pointer;
+}
+
+#whatsapp:hover{
+    color: #fff;
+    background-color: #128c7e;
+    cursor: pointer;
+}
+
+/* .carousel-item {
+    max-height: 80vh;
+} */
+
+@media(max-width: 720px) {
+    
+}

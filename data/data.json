@@ -1,0 +1,40 @@
+{
+    "questions" : [
+            {
+                "img" : "img_5terre.jpg",
+                "awnsers" : [
+                    "Chapadinha",
+                    "Poço Azul",
+                    "Balneário"
+                ],
+                "correct" : {
+                    "feedback" : 0,
+                    "note" : "Ponto turistico muito comun num sei o que mais lá uma nota qualquer. "
+            }
+        }
+    ],
+    "layout" : {
+        "img" : "img_5terre.jpg",
+        "bg-img" : "img_5terre_wide.jpg",
+        "bg-color" : "#0a0f38",
+        "title" : "Visite Monsenhor Gil",
+        "text" : "Você conhece todos os pontos turisticos que essa cidade pode oferecer?",
+        "subtitle" : "Veja as imagens e conheça melhor nossa cidade",
+        "color" : "btn-warning",
+        "text-colors" : [
+            "#ffd902",
+            "#fff",
+            "#fff"
+        ],
+        "responsaveis" : {
+            "title" : [
+                "Teste",
+                "Teste 2"
+            ], 
+            "links" : [ 
+                "Google ",
+                "Google"
+            ]
+        }
+    }
+}
