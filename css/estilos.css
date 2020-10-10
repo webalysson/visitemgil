@@ -108,6 +108,10 @@ h3 {
         height: 60vh
     }
 
+    .carousel-item{
+        height: 95vh;
+    }
+
     h1 {
         font-size: 2rem;
     }
