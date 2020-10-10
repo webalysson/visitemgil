@@ -124,9 +124,9 @@ $.fn.extend({
               Você acertou ${ correct } de ${ questions.length } (${ percent % 10 != 0 ? percent.toFixed(2) : percent }%) das questões. 
               `;
 
-              var whatsapp = `https://api.whatsapp.com/send?text=Acertei ${ correct } questões no ${ layout['title'] } Monsenhor - Gil. Disponível no link `;
-              var facebook = `https://www.facebook.com/sharer/sharer.php?u=https://carlosdaniel0.github.io/jogos_saude/`;
-              var twitter = `https://twitter.com/intent/tweet?text=Acertei ${ correct } questões no ${ layout['title'] } Monsenhor - Gil. Disponível no link `;
+              var whatsapp = `https://api.whatsapp.com/send?text=Acertei ${ correct } questões no ${ layout['title'] } Monsenhor - Gil. Disponível no link https://bit.ly/34ISXmS`;
+              var facebook = `https://www.facebook.com/sharer/sharer.php?u=https://webalysson.github.io/visitemgil/`;
+              var twitter = `https://twitter.com/intent/tweet?text=Acertei ${ correct } questões no ${ layout['title'] } Monsenhor - Gil. Disponível no link https://bit.ly/34ISXmS`;
 
               $('#result').html(result);
               
@@ -200,6 +200,9 @@ $.fn.extend({
       <div class="carousel-item active">
           <div class="item">
             <div class="col-12">
+              <div class="row d-flex justify-content-center">
+                <img src="img/${ layout['logo'] }" width="100">
+              </div>
               <h1 id="info">${ layout['text'] }</h1>
               <h3 id="subinfo">${ layout['subtitle'] }</h3>
               <div class="row d-flex justify-content-center mt-4">
@@ -236,6 +239,9 @@ $.fn.extend({
         <div class="carousel-item">
           <div class="item">
             <div class="col">
+              <div class="row d-flex justify-content-center">
+                <img src="img/${ layout['logo'] }" width="100">
+              </div>
               <div class="row d-flex justify-content-center">
                 <h1 id="result" class="mt-4"></h1>
               </div>

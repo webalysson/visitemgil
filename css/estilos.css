@@ -8,8 +8,22 @@ body {
     background-color: #000;
 }
 
-.container {
+h1 {
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+.carousel-item {
     object-fit: cover;
+    min-height: 550px;
+    margin-top: 5px;
+}
+
+.container {
+    height: 70vh
 }
 
 .img {
@@ -90,5 +104,14 @@ body {
 } */
 
 @media(max-width: 720px) {
-    
+    .container {
+        height: 60vh
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
 }
