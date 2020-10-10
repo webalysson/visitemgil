@@ -67,7 +67,6 @@ $.fn.extend({
         $('.responsaveis').hide().delay(3000);
         $('.responsaveis').animate({height: 'toggle', opacity: '1'}, 'slow');
 
-
         // Inicia o Quiz
         $('#start-button').on('click', function() {
           index++
@@ -186,10 +185,15 @@ $.fn.extend({
     var responsaveis = 
     `
     <div class="responsaveis">
-      Dados técnicos: </br>
+      Atividade: </br>
+      Alunos do curso Técnico em Informática pelo PRONATEC/SEDUC-PI</br>
+      Turma Monsenhor Gil - PI
+      </br></br>
+      Colaboradores: </br>
         ${ i_responsaveis }
     </div>
     `;
+
     indexes = `<li data-target="#carousel" class=" not-visible active"></li>`;
       items += 
       `

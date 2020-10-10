@@ -1,25 +1,91 @@
 {
     "questions" : [
             {
-                "img" : "img_5terre.jpg",
+                "img" : "morro_cruzeiro_04.jpeg",
                 "awnsers" : [
-                    "Chapadinha",
-                    "Poço Azul",
-                    "Balneário"
+                    "Alto da Matriz",
+                    "Monte do Cruzeiro",
+                    "Morro do Cruzeiro"
                 ],
                 "correct" : {
-                    "feedback" : 0,
-                    "note" : "Ponto turistico muito comun num sei o que mais lá uma nota qualquer. "
+                    "feedback" : 2,
+                    "note" : "O Morro do Cruzeiro é uma das rotas obrigatórias de religiosos e turistas. Para ter acesso ao topo foi construído uma escadaria de 360 degraus. A vista dá acesso a toda o município de Monsenhor Gil. No local é desempenhado atividades de cunho religioso, como a abertura do festejo de Maio."
+            }
+        },
+
+        {
+            "img" : "cai_nagua_monte_alegre_01.jpeg",
+            "awnsers" : [
+                "Açude Natal",
+                "Banho do Açude Grande",
+                "Açude do Monte Alegre"
+            ],
+            "correct" : {
+                "feedback" : 2,
+                "note" : "no Açude Cai N’Água, situado a 13 km da sede, com acesso de estrada vicinal. O local é bom para banho e diversão, além do banhista ter um contato direto com a natureza."
+            }
+        },
+
+        {
+            "img" : "santa_barbara_01.jpeg",
+            "awnsers" : [
+                "Riacho Natal",
+                "Poço Azul",
+                "Santa Bárbara"
+            ],
+            "correct" : {
+                "feedback" : 2,
+                "note" : "Riacho santa bárbara na divisa dos municípios de Lagoa do Piauí e Monsenhor Gil, a 18km do centro de Monsenhor Gil."
+            }
+        },
+
+        {
+            "img" : "trincheiras_01.jpeg",
+            "awnsers" : [
+                "Poço Azul",
+                "Poço das Trincheiras",
+                "Poço da Onça"
+            ],
+            "correct" : {
+                "feedback" : 1,
+                "note" : "Poço das trincheiras, banho de água natural entre coqueirais localizado depois da comunidade Cadoz, sentido Poço Azul de Monsenhor Gil, aproximadamente a 15km da sede do município."
+            }
+        },
+
+        {
+            "img" : "poco_azul_01.jpeg",
+            "awnsers" : [
+                "Poço Azul",
+                "Poço das Trincheiras",
+                "Poço da Onça"
+            ],
+            "correct" : {
+                "feedback" : 0,
+                "note" : "O conhecido Poço Azul fica localizado a 17 km do centro da cidade. É um banho muito agradável, com águas cristalinas e belo contato com natureza."
+            }
+        },
+
+        {
+            "img" : "tres_riacho_01.jpg",
+            "awnsers" : [
+                "Riacho Natal",
+                "Riacho Santa Bárbara",
+                "Três Riachos"
+            ],
+            "correct" : {
+                "feedback" : 2,
+                "note" : "Próximo de uma nascente em meio a uma vegetação nativa, esse ponto turístico está a apenas 20 km da área urbana de Monsenhor Gil. Como vem dessa nascente, você pode aproveitar o Três Riachos em qualquer época, pois as águas correm o ano todo."
             }
         }
+
     ],
     "layout" : {
         "img" : "img_5terre.jpg",
         "bg-img" : "img_5terre_wide.jpg",
         "bg-color" : "#0a0f38",
         "title" : "Visite Monsenhor Gil",
-        "text" : "Você conhece todos os pontos turisticos que essa cidade pode oferecer?",
-        "subtitle" : "Veja as imagens e conheça melhor nossa cidade",
+        "text" : "Você conhece bem os pontos turisticos de Monsenhor Gil?",
+        "subtitle" : "Que tal fazer um teste? Veja as imagens e tente identificar cada local.",
         "color" : "btn-warning",
         "text-colors" : [
             "#ffd902",
@@ -28,12 +94,12 @@
         ],
         "responsaveis" : {
             "title" : [
-                "Teste",
-                "Teste 2"
+                "Monsenhor Gil de Riquezas",
+                "Conheça o Piauí"
             ], 
             "links" : [ 
-                "Google ",
-                "Google"
+                "https://www.instagram.com/monsenhorgilderiquezas/",
+                "https://www.conhecaopiaui.com/"
             ]
         }
     }
