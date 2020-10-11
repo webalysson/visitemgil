@@ -18,7 +18,7 @@ h3 {
 
 .carousel-item {
     object-fit: cover;
-    min-height: 600px;
+    min-height: 550px;
     margin-top: 5px;
 }
 
@@ -110,6 +110,7 @@ h3 {
 
     .carousel-item{
         height: 95vh;
+        min-height: 600px;
     }
 
     h1 {
